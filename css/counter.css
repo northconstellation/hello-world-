@@ -1,0 +1,90 @@
+#timer_wrap {
+	height:125px;
+	width:420px; 
+    margin: auto; 
+    font-style: normal;
+    font-weight:bold;
+	margin-top:0px;
+	position:relative;
+}
+
+#hour,#min,#sec,#day {
+	float:left;
+	width:120px;
+	height:100px;
+	position:relative;
+	display:block;
+  
+}
+
+#sec1,#min1,#hour1,#day1 {
+
+}
+			
+#timer_wrap p {
+    margin: auto;
+    padding: 8px 2px 0 3px;
+    width: 50px;
+    height: 80px;
+    float: left;
+    color: #000;
+    font-size: 36pt;
+    background-image: url(http://deyneko.ru/woman/img/tabCount.png);
+    background-repeat: no-repeat;
+	
+}
+
+
+
+		
+
+#razd {
+	float:left;
+	color:#000;
+	font-weight:bold;
+	font-size:28px;
+	margin:23px 8px 0px 0px;
+    
+}
+#stop {
+    font-size: 29px; /*'impact', sans-serif;*/
+    text-transform: uppercase;
+    display: block;
+    color: red;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: #7CFC00;
+    width: 525px;
+    
+     -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* ��� Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* ��� Safari � Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* ��������� ���� */
+}
+
+.dash_title {
+    margin: auto;
+    width: 110px;
+    font: bold 12pt Tahoma, sans-serif;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin-left: 0px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+#clock1{
+    width: 570px;
+min-height: 100px;
+max-height: 200px;
+    margin: auto;
+    font-family:Tahoma,sans-serif;
+	margin-left:-50px;
+
+}

@@ -1,0 +1,19 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+AddDefaultCharset utf8
+
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.deyneko\.ru$ [NC]
+RewriteRule ^(.*)$ http://deyneko.ru/$1 [R=301,L]
+</IfModule>
+
+
+
+

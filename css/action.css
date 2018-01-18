@@ -1,0 +1,86 @@
+
+.friday_title {
+    color: #fb7a02;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.friday_text {
+    color: #fb7a02;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container_action {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row_action {
+    font-size: 17px;
+    padding: 11px 125px;
+    border: 2px dashed #e74c3c;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 0px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+
+.friday_cross {
+    color: #151515;
+    text-decoration: line-through;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.friday_price{
+    color: #fb7a02;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.friday_timertitle {
+    color: #151515;
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row_action .strip {
+    text-align: center;
+    width: 564px;
+    height: 69px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: url(../img/strip3.png) top center no-repeat;
+}
+
+.row_action .take {
+    text-transform: uppercase;
+    background: #f39c12;
+    padding: 17px 35px;
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px #969696;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.7);
+    -moz-box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.7);
+    box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.7);
+    border-radius: 3px;
+    border: 1px solid #f9c73a;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.dash_title {
+    color: #000000 !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+
+}
